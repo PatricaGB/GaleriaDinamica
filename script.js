@@ -9,6 +9,7 @@ function upDate(previewPic){
  
 function unDo(){
     document.getElementById("image").style.backgroundImage=`url('')`
+    document.getElementById("image").innerHTML = "Hover over an image below to display here";
 	}
     /* In this function you should 
     1) Update the url for the background image of the div with the id = "image" 
